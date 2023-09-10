@@ -341,7 +341,7 @@
                             <configuration>
                                 <argLine>@{jacoco.failsafe.argLine}</argLine>
                                 <environmentVariables>
-                                    <SPRING_DATASOURCE_URL>jdbc:postgresql://127.0.0.1:${postgresqlPort}/notifier</SPRING_DATASOURCE_URL>
+                                    <SPRING_DATASOURCE_URL>jdbc:postgres://qrgsxaqa:Wb14bjwPz1mlOzhHHIQQ6mQs8xim1UXn@tiny.db.elephantsql.com/qrgsxaqa:notifier</SPRING_DATASOURCE_URL>
                                     <SPRING_DATASOURCE_USERNAME>notifier</SPRING_DATASOURCE_USERNAME>
                                     <SPRING_DATASOURCE_PASSWORD>notifier</SPRING_DATASOURCE_PASSWORD>
                                 </environmentVariables>
